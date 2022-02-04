@@ -1,0 +1,60 @@
+.col {
+    width: 100%;
+    text-align: center;
+}
+
+.Heading {
+padding: 30px 0px; 
+color: rgb(255, 255, 255);
+
+}
+
+.slant-row{
+    background-color: rgb(34, 1, 53);
+    height: 400px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+
+img{
+    height: 30px; width: 30px; vertical-align: super; border-radius: 80%;
+}
+
+.slant-rowB{
+    background-color: rgb(34, 1, 53);
+    height: 400px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: skewY(10deg);
+    transform-origin: top left;
+    z-index: -1;
+}
+
+.slant-row1{
+    background-color: rgb(226, 222, 228);
+    height: 400px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    position: relative;
+    transform: skewY(10deg);
+    transform-origin: top left;
+    
+}
+
+
+.slant-row1B{
+    background-color: rgb(226, 222, 228);
+    height: 400px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: skewY(10deg);
+    transform-origin: top left;
+    z-index: -1;
+}
